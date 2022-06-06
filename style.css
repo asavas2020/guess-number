@@ -3,16 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+ background-image: url(./bird-7143567_960_720.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ color: rgb(65, 241, 12);
+ font-size: xx-large;
+ 
+}
 
 .guess{
     display: flex;
     flex-direction: column;
     align-items: center;
  }
- h2, .input, h3,p{
-     margin: 40px;
+ 
+ h2, .input1, h3,p{
+     margin: 60px 0;
+ }
+ .btn{
+     height: 3.2rem;
+     width: 9rem;
+     font-size: xx-large;
+     color: brown;
+     background-color: aquamarine;
+     border-radius: 5px;
  }
 
-h2:hover{
+.btn:hover{
     cursor: pointer;
+}
+.input1{
+    font-size: larger ;
 }
