@@ -17,14 +17,14 @@ live = 0
 const check = function() {
   
   if(input.value>number){
-        result.innerHTML = `Sorry You must enter a number less than ${input.value} ⬇⬇⬇⬇ please try again...`;
+        result.innerHTML = `Sorry You must enter a number less than ${input.value} 👇🔻🔻🔻👇 please try again...`;
         input.value = "" ;
         down.play() ;
           
     }
       
    else if(input.value<number){
-        result.innerHTML = `Sorry You must enter a number greater than ${input.value} ⬆⬆⬆⬆ please try again...`;
+        result.innerHTML = `Sorry You must enter a number greater than ${input.value} 👆🔺🔺🔺👆 please try again...`;
         input.value = ""
         up.play() ;
 
